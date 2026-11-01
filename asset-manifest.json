@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Campus-Grievance-Platform/static/css/main.abf19ca8.css",
-    "main.js": "/Campus-Grievance-Platform/static/js/main.b65cf13e.js",
-    "index.html": "/Campus-Grievance-Platform/index.html",
-    "main.abf19ca8.css.map": "/Campus-Grievance-Platform/static/css/main.abf19ca8.css.map",
-    "main.b65cf13e.js.map": "/Campus-Grievance-Platform/static/js/main.b65cf13e.js.map"
+    "main.css": "/static/css/main.abf19ca8.css",
+    "main.js": "/static/js/main.af9a26b2.js",
+    "index.html": "/index.html",
+    "main.abf19ca8.css.map": "/static/css/main.abf19ca8.css.map",
+    "main.af9a26b2.js.map": "/static/js/main.af9a26b2.js.map"
   },
   "entrypoints": [
     "static/css/main.abf19ca8.css",
-    "static/js/main.b65cf13e.js"
+    "static/js/main.af9a26b2.js"
   ]
 }
