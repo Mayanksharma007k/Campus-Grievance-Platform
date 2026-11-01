@@ -1,16 +1,20 @@
-const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+// Auto-detect base URL: in production (Vercel) use same origin '/api', in localhost dev fallback to port 5000
+const API_BASE = process.env.REACT_APP_API_URL || 
+  (typeof window !== 'undefined' && window.location.hostname !== 'localhost' ? '/api' : 'http://localhost:5000/api');
 
 class ApiService {
   constructor() {
-    this.token = localStorage.getItem('campus_auth_token') || null;
+    this.token = typeof window !== 'undefined' ? localStorage.getItem('campus_auth_token') || null : null;
   }
 
   setToken(token) {
     this.token = token;
-    if (token) {
-      localStorage.setItem('campus_auth_token', token);
-    } else {
-      localStorage.removeItem('campus_auth_token');
+    if (typeof window !== 'undefined') {
+      if (token) {
+        localStorage.setItem('campus_auth_token', token);
+      } else {
+        localStorage.removeItem('campus_auth_token');
+      }
     }
   }
 
