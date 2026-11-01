@@ -1,3 +1,7 @@
 name = "campus-grievance-platform"
-pages_build_output_dir = "frontend/build"
+main = "worker.js"
 compatibility_date = "2024-01-01"
+
+[assets]
+directory = "./frontend/build"
+binding = "ASSETS"
