@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Campus-Grievance-Platform/static/css/main.abf19ca8.css",
+    "main.js": "/Campus-Grievance-Platform/static/js/main.b65cf13e.js",
+    "index.html": "/Campus-Grievance-Platform/index.html",
+    "main.abf19ca8.css.map": "/Campus-Grievance-Platform/static/css/main.abf19ca8.css.map",
+    "main.b65cf13e.js.map": "/Campus-Grievance-Platform/static/js/main.b65cf13e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abf19ca8.css",
+    "static/js/main.b65cf13e.js"
+  ]
+}
